@@ -64,6 +64,8 @@ const GlobalStyles = createGlobalStyle`
 body {
     height: 100vh;
     transition: background-color 0.3s ease-in-out;
+    display: grid;
+    place-items: center;
 }
 
 body:has(input[name="theme1"]:checked) {
